@@ -2,7 +2,11 @@
 
 Itsy is a 6-legged, 18-servo hexapod that roams the house like a pet: it maps the rooms with lidar, recognizes people and our cat, answers when you say "Itsy", climbs real stairs and drives itself to its charging dock when the battery runs low.
 
-![Itsy leg in Fusion 360](docs/images/leg_side.png)
+![Itsy leg in Fusion 360](docs/images/leg_iso.png)
+
+| Side | Top | Top, coxa at −75° |
+| --- | --- | --- |
+| ![Leg side view](docs/images/leg_side.png) | ![Leg top view](docs/images/leg_top.png) | ![Coxa turned to −75°](docs/images/leg_coxa_-75.png) |
 
 ## Status
 
