@@ -30,7 +30,9 @@ Itsy is a 6-legged, 18-servo hexapod that roams the house like a pet: it maps th
 | Femur | 95° up, 50° down |
 | Knee | +11° to −218° (229° total) |
 
-| Folded | Extended |
+These ranges were measured on a single leg **without the body**. With the body attached, some combinations would collide: fully folded as in the left picture, the tibia would stab into Itsy's own body. The firmware will therefore check every pose against a keep-out zone around the body, on top of the per-joint limits.
+
+| Folded (knee −218°, measured without body) | Extended (knee +11°, femur 60° down, measured without body) |
 | --- | --- |
 | ![Leg folded](docs/images/leg_folded.png) | ![Leg extended](docs/images/leg_extended.png) |
 
