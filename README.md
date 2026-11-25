@@ -4,6 +4,8 @@ Itsy is a 6-legged, 18-servo hexapod that roams the house like a pet: it maps th
 
 ![Itsy running the obstacle course in the MuJoCo simulation (real time)](docs/images/itsy_parcours.gif)
 
+*Current state after just 1 day of training in the simulation – still far from perfect, it will keep learning.*
+
 ![Itsy leg render with dimensions: coxa 60 mm, femur 157 mm, tibia 256 mm](docs/images/leg_render_dimensions.png)
 
 | Side | Top | Top, coxa at −75° |
