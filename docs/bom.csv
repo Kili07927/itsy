@@ -1,0 +1,14 @@
+Item,Quantity,Cost (USD),Category
+Feetech ST3215 12V 30kg·cm bus servo (18 + 1 spare),19,374,Actuators
+Waveshare bus servo adapter + servo cables,1,14,Actuators
+ESP32-S3 N16R8 + 64 GB microSD,1,23,Electronics
+"Speaker amp MAX98357A, 2x OLED eyes, 2x INA226, protoboard",1,30,Electronics
+BNO085 IMU + 2x VL53L1X ToF,1,41,Sensors
+LDROBOT LD19 360° lidar,1,74,Sensors
+Raspberry Pi Camera Module 3 Wide,1,47,Sensors
+ReSpeaker USB mic array,1,90,Sensors
+Molicel P42A 21700 cell (3S2P),6,59,Power
+"3S 40A BMS, 30A fuse, anti-spark switch, fuse block, buck converters, capacitor, wire, copper contacts",1,107,Power
+"Charging dock: 12.6V charger, pogo pins, ideal diode, ESP32-C3, OLED",1,47,Charging dock
+"PETG 2 kg, bearings, screws + heat-set inserts",1,74,Mechanics
+Total,,980,
