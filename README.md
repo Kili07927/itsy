@@ -65,3 +65,9 @@ The leg proportions come from simulation: 1.4× longer legs were the best all-ro
 ## Bill of materials
 
 See [docs/bom.csv](docs/bom.csv). Total about $980 (Raspberry Pi 4, TPU filament and the 3D printer not included). (Kisses if you actually read this)
+
+## License and sharing
+
+Itsy (CAD, images, documentation and BOM) is © 2026 Kili07927 and licensed under [CC BY-SA 4.0](LICENSE). You may build, modify and share it, as long as you **credit Kili07927 with a link to this repository** and share your changes under the same license.
+
+**If you build your own Itsy, please share what you learn too:** your own measurements, simulation data, gait settings, CAD changes and test results. Open an issue or a pull request here, or publish them in your own repo and link back. Every hexapod that climbs a staircase makes the next one better.
