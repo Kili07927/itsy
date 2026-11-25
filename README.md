@@ -2,6 +2,8 @@
 
 Itsy is a 6-legged, 18-servo hexapod that roams the house like a pet: it maps the rooms with lidar, recognizes people and our cat, answers when you say "Itsy", climbs real stairs and drives itself to its charging dock when the battery runs low.
 
+![Itsy running the obstacle course in the MuJoCo simulation (real time)](docs/images/itsy_parcours.gif)
+
 ![Itsy leg render with dimensions: coxa 60 mm, femur 157 mm, tibia 256 mm](docs/images/leg_render_dimensions.png)
 
 | Side | Top | Top, coxa at −75° |
