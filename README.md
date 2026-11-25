@@ -64,4 +64,4 @@ The leg proportions come from simulation: 1.4× longer legs were the best all-ro
 
 ## Bill of materials
 
-See [docs/bom.csv](docs/bom.csv). Total about $980 (Raspberry Pi 4, TPU filament and the 3D printer not included). (Kisses if you actuall read this)
+See [docs/bom.csv](docs/bom.csv). Total about $980 (Raspberry Pi 4, TPU filament and the 3D printer not included). (Kisses if you actually read this)
