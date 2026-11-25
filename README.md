@@ -25,6 +25,7 @@ Itsy is a 6-legged, 18-servo hexapod that roams the house like a pet: it maps th
 - **Brain – Raspberry Pi 4:** LD19 360° lidar mapping, Camera Module 3 Wide object detection, local wake word, memory of rooms and learned tricks; an LLM is only used for conversation
 - **Power:** 3S2P Li-ion (Molicel P42A), 40 A BMS, 30 A main fuse, one fuse per leg, anti-spark switch
 - **Charging dock:** pogo-pin contacts under the belly, ideal diode, ESP32-C3 with display for charge current and battery state
+- **Documentation:** mainly made by Claude cuz i suck at documentations and stuff
 
 ### Joint ranges (from CAD)
 
