@@ -6,6 +6,10 @@ Itsy is a 6-legged, 18-servo hexapod that roams the house like a pet: it maps th
 
 *Current state after just 1 day of training in the simulation – still far from perfect, it will keep learning. It isnt learning everything from scratch but building up from my code.*
 
+![Itsy running the obstacle course on day 2 of training (real time)](docs/images/itsy_parcours_day2.gif)
+
+*Day 2: new legs (v2) and the real servo speed limit of the ST3215 (~4.7 rad/s) in the simulation. Best obstacle course time went from 34–38 s down to 18.9 s, without falling once.*
+
 ![Itsy leg render with dimensions: coxa 60 mm, femur 157 mm, tibia 256 mm](docs/images/leg_render_dimensions.png)
 
 | Side | Top | Top, coxa at −75° |
@@ -47,15 +51,17 @@ These ranges were measured on a single leg **without the body**. With the body a
 
 ## Simulation results
 
-The leg proportions come from simulation: 1.4× longer legs were the best all-round choice, with average servo load at 31–35 % of holding torque. Results using only onboard sensors (ToF, camera, foot contact, IMU):
+The leg proportions come from simulation: 1.4× longer legs were the best all-round choice, with average servo load at 31–35 % of holding torque. Results using only onboard sensors (ToF, camera, foot contact, IMU), with servo speed capped at the real ST3215 limit (~4.7 rad/s):
 
 | Task | Best result |
 | --- | --- |
-| Sprint 6 m | 16.6 s (tripod, ~40 cm/s) |
-| Obstacle course | 34–38 s |
-| Mixed stairs up to 17.5 cm | 23–28 s |
-| Block climb | 26–28 cm, 32.4 s |
+| Sprint 6 m | 12.1 s (ripple gait, new legs; usually 13.5–15 s) |
+| Obstacle course | 18.9 s (tripod gait, new legs, no falls) |
+| Mixed stairs up to 17.5 cm | 25.5 s (old legs) |
+| Block climb | 28 cm, 40.3 s (old legs) |
 | Self-righting | recovers from 45–75° tilt |
+
+Training runs around the clock on the Raspberry Pi and my laptop; the trainer only keeps a new best if it holds up over several runs, so it can't drift off with a lucky fluke.
 
 ![Leg length change](docs/images/leg_length_comparison.png)
 
