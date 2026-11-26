@@ -23,7 +23,7 @@ Itsy is a 6-legged, 18-servo hexapod that roams the house like a pet: it maps th
 ## Design
 
 - **Size:** about 2.7 kg, body 30 × 16 cm
-- **Legs:** 3D-printed PETG, TPU feet. Coxa 60 mm, femur 157 mm, tibia 254 mm (axis to axis / foot tip)
+- **Legs:** 3D-printed PETG, TPU feet. Coxa 60 mm, femur 157 mm, tibia 256 mm (axis to axis / foot tip)
 - **Actuators:** 18× Feetech ST3215 12 V 30 kg·cm serial bus servos, one daisy-chain per leg. Position and load feedback lets each foot feel the ground and stop on contact.
 - **Reflexes – ESP32-S3:** inverse kinematics, gaits (tripod, ripple for stairs, rearing up on 4 legs), balance from a BNO085 IMU, edge and step detection with 2× VL53L1X
 - **Brain – Raspberry Pi 4:** LD19 360° lidar mapping, Camera Module 3 Wide object detection, local wake word, memory of rooms and learned tricks; an LLM is only used for conversation
